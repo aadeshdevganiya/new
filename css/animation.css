@@ -1,0 +1,81 @@
+.NB-right a{
+    animation: but 1s infinite;
+}
+@keyframes but {
+    0%,100%{
+        box-shadow: 0 0 0 0  #f75757;
+    }
+    50%{
+        box-shadow: 0 0px 20px 8px #f75757;
+    }
+}
+.sec-1-text{
+    overflow: hidden;
+}
+.sec-1-text h1{
+    animation: text 2s ease-in-out 1s ;
+    
+}
+@keyframes text{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.sec-1-text span{
+    display: block  ;
+    animation: span 2s ease-in-out 0s;
+    
+}
+@keyframes span{
+    0%{
+        transform:  translatex(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.sec-1-text ul{
+    animation: ul 2s ease-in-out 0.5s;
+    overflow: hidden;
+}
+@keyframes ul{
+    0%{
+        transform:  translatex(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.section-2{
+    overflow: hidden;
+}
+.sec-2-L1,.sec-2-L2,.sec-2-L3,.sec-2-L4{
+    animation: L1 2s ease-in 1s;
+    box-shadow: 5px 7px 8px black;
+    border-radius: 5px;
+}
+@keyframes L1 {
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(1);
+    }
+}
+.sec-2-R1,.sec-2-R2,.sec-2-R3,.sec-2-R4{
+    animation: R1 2s ease-in 1s;
+    box-shadow: 5px 7px 8px black;
+    border-radius: 5px;
+}
+@keyframes R1 {
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(1);
+    }
+    
+}
